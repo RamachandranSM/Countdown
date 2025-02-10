@@ -1,0 +1,153 @@
+body{
+    position:relative;
+   overflow:hidden;
+   font-size:sens-serief;
+   box-sizing:border-box;
+   padding:0;
+   margin:0;
+   animation:light 3s infinite;
+ 
+}
+h1{
+   display:inline-flex;
+   color:black;
+   position:relative;
+}
+
+.container{
+margin-top:12em;
+justify-content:center;
+text-align:center;
+height:500px;
+align-items:center;
+ position:relative;}
+
+#countdown{
+   font-size:40px;
+   margin-bottom:30px;
+   background-color:green;
+   display:inline-flex;
+    position:relative;
+}
+.btn1{
+            padding: 15px 30px;
+           font-size: 16px;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           position:relative;
+}
+.btn1:focus{
+   transition:.3s ease-out;
+   background:red;
+}
+
+#startButton{
+   gap:12px;
+   margin-right:20px;
+  color:black;
+}
+
+#resetButton{
+gap:12px;
+margin-right:20px;}
+
+.btn:hover{
+   color:gray;
+   transition: .2s ease;
+   cursor:pointer;
+ 
+}
+
+       @keyframes light {
+           0% {
+               background-color: black; 
+               color: white;
+           }
+           25% {
+               background-color: #33c6ff; 
+               color: white;
+           }
+           50% {
+               background-color: #00ff57; /* Green */
+               color: white;
+           }
+           75% {
+               background-color: violed; 
+               color: white;
+           }
+           100% {
+               background-color: orange;
+               color: white;
+           }
+            @keyframes moveUp {
+           to {
+               transform: translateY(-100vh); /* Move the box to the top of the viewport */
+           }
+       }
+
+       .box:nth-child(1) {
+           background-color: rgba(255, 0, 0, 0.7);
+           left: 10%;
+           animation-delay: 0s;
+       }
+
+       .box:nth-child(2) {
+           background-color: rgba(0, 255, 0, 0.7);
+           left: 30%;
+           animation-delay: 1s;
+       }
+
+       .box:nth-child(3) {
+           background-color: rgba(0, 0, 255, 0.7);
+           left: 50%;
+           animation-delay: 2s;
+       }
+
+       .box:nth-child(4) {
+           background-color: rgba(255, 255, 0, 0.7);
+           left: 70%;
+           animation-delay: 3s;
+       }
+
+       .box:nth-child(5) {
+           background-color: rgba(255, 0, 255, 0.7);
+           left: 90%;
+           animation-delay: 4s;
+       }
+ @keyframes moveUp {
+           to {
+               transform: translateY(-100vh); /* Move the box to the top of the viewport */
+           }
+       }
+
+       /* Create multiple boxes with different colors and delays */
+       .box:nth-child(1) {
+           background-color: rgba(255, 0, 0, 0.7);
+           left: 10%;
+           animation-delay: 0s;
+       }
+
+       .box:nth-child(2) {
+           background-color: rgba(0, 255, 0, 0.7);
+           left: 30%;
+           animation-delay: 1s;
+       }
+
+       .box:nth-child(3) {
+           background-color: rgba(0, 0, 255, 0.7);
+           left: 50%;
+           animation-delay: 2s;
+       }
+
+       .box:nth-child(4) {
+           background-color: rgba(255, 255, 0, 0.7);
+           left: 70%;
+           animation-delay: 3s;
+       }
+
+       .box:nth-child(5) {
+           background-color: rgba(255, 0, 255, 0.7);
+           left: 90%;
+           animation-delay: 4s;
+       }
